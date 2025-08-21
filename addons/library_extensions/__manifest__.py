@@ -1,14 +1,14 @@
 {
-    "name": "Library Extensions",
-    "version": "1.0",
-    "depends": ["library"],  
-    "author": "Gene Louise Lopez",
-    "category": "Library",
-    "description": "Extensions to the library module with author and categories",
-    "data": [
-        "views/library_book_views.xml",
-        "views/library_book_category_views.xml",
+    'name': 'Library Extensions',
+    'version': '1.0',
+    'category': 'Library',
+    'summary': 'Adds author and category features to library books',
+    'author': 'Gene Louise Lopez',
+    'depends': ['library'],
+    'data': [
+        'views/library_category_views.xml',
+        'views/library_book_views.xml',
     ],
-    "installable": True,
-    "application": False,
+    'installable': True,
+    'application': False,
 }
